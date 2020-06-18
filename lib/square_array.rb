@@ -9,4 +9,11 @@
 #end
 
 def square_array(numbers)
+  num = Array.new 
+  counter = 0 
+  while counter < numbers.size 
+    num << numbers[counter] * numbers
+    counter += 1 
+  end
+  num
 end  
