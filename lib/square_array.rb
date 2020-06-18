@@ -12,7 +12,7 @@ def square_array(numbers)
   num = Array.new 
   counter = 0 
   while counter < numbers.size 
-    num << numbers[counter] * numbers
+    num << numbers[counter] ** 2
     counter += 1 
   end
   num
